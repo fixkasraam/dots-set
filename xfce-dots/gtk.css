@@ -1,0 +1,126 @@
+* {
+    transition: 0ms;
+    animation: 0ms;
+}
+
+/*Workspace*/
+#xfce-panel-toggle-button {
+    color: #e0e1d5;
+    opacity: 0.4;
+    padding: 10px;
+    background: #000000;
+    margin-left: 4px;
+    border-radius: 0px;
+    margin-right: 4px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    font-weight: 500;
+}
+
+#xfce-panel-toggle-button:checked {
+    color: #000000;
+    opacity: 1;
+    border-radius: 0;
+    border: none;
+    background: #e0e1d5;
+    font-weight: 900;
+}
+
+#xfce-panel-toggle-button:hover {
+    opacity: 1;
+    border-radius: 0px;
+    border: none;
+    background-color: #282828;
+}
+
+#xfce-panel-toggle-button:checked:hover {
+    background-color: #e0e1d5;
+}
+
+/*Notification*/
+#xfce4-notification-plugin {
+    color: #e0e1d5;
+    padding: 8px;
+    border: none;
+    /*background: #000000;*/
+    border-radius: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#xfce4-notification-plugin:hover {
+    background-color: #282828;
+}
+
+#xfce4-notification-plugin image {
+    -gtk-icon-transform: scale(1.2);
+}
+
+/*Sound*/
+#pulseaudio-button {
+    color: #e0e1d5;
+    padding: 8px;
+    border: none;
+    background: #000000;
+    border-radius: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#pulseaudio-button:hover {
+    background-color: #282828;
+}
+
+#pulseaudio-button image {
+    -gtk-icon-transform: scale(1.2);
+}
+
+/*Battery*/
+#xfce4-power-manager-plugin {
+    color: #e0e1d5;
+    padding: 8px;
+    border: none;
+    background: #000000;
+    border-radius: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#xfce4-power-manager-plugin:hover {
+    background-color: #282828;
+}
+
+#xfce4-power-manager-plugin image {
+    -gtk-icon-transform: scale(1.2);
+}
+
+/*Clock*/
+#clock-button {
+    color: #e0e1d5;
+    padding: 10px;
+    border: none;
+    background: #000000;
+    border-radius: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#clock-button:hover {
+    background-color: #282828;
+}
+
+/* Action Button */
+#actions-button {
+    color: #e0e1d5;
+    font-size: 22px;
+    padding: 12px;
+    border: none;
+    background: #000000;
+    border-radius: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#actions-button:hover {
+    background-color: #282828;
+}
