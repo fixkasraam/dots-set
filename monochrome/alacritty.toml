@@ -1,0 +1,38 @@
+[font]
+normal = { family = "FiraMono Nerd Font Mono", style = "Medium" }
+size = 16.0
+
+[colors.primary]
+background = "#000000"
+foreground = "#E5E5E5"
+
+[colors.cursor]
+text = "#000000"
+cursor = "#FFFFFF"
+
+[colors.selection]
+text = "#FFFFFF"
+background = "#4c4c4c"
+
+[colors.normal]
+black = "#000000"
+red = "#7f7f7f"
+green = "#b2b2b2"
+yellow = "#999999"
+blue = "#cccccc"
+magenta = "#7f7f7f"
+cyan = "#b2b2b2"
+white = "#e5e5e5"
+
+[colors.bright]
+black = "#323232"
+red = "#b2b2b2"
+green = "#e5e5e5"
+yellow = "#cccccc"
+blue = "#ffffff"
+magenta = "#b2b2b2"
+cyan = "#ffffff"
+white = "#ffffff"
+
+[window]
+startup_mode = "Maximized"
